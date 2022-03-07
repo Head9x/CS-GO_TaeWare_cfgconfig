@@ -1,0 +1,16 @@
+C:\Users\frede\source\repos\CS_cfgconfig\bin\Release\net5.0\CS_cfgconfig.exe
+C:\Users\frede\source\repos\CS_cfgconfig\bin\Release\net5.0\CS_cfgconfig.deps.json
+C:\Users\frede\source\repos\CS_cfgconfig\bin\Release\net5.0\CS_cfgconfig.runtimeconfig.json
+C:\Users\frede\source\repos\CS_cfgconfig\bin\Release\net5.0\CS_cfgconfig.runtimeconfig.dev.json
+C:\Users\frede\source\repos\CS_cfgconfig\bin\Release\net5.0\CS_cfgconfig.dll
+C:\Users\frede\source\repos\CS_cfgconfig\bin\Release\net5.0\ref\CS_cfgconfig.dll
+C:\Users\frede\source\repos\CS_cfgconfig\bin\Release\net5.0\CS_cfgconfig.pdb
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\CS_cfgconfig.csproj.AssemblyReference.cache
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\CS_cfgconfig.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\CS_cfgconfig.AssemblyInfoInputs.cache
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\CS_cfgconfig.AssemblyInfo.cs
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\CS_cfgconfig.csproj.CoreCompileInputs.cache
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\CS_cfgconfig.dll
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\ref\CS_cfgconfig.dll
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\CS_cfgconfig.pdb
+C:\Users\frede\source\repos\CS_cfgconfig\obj\Release\net5.0\CS_cfgconfig.genruntimeconfig.cache

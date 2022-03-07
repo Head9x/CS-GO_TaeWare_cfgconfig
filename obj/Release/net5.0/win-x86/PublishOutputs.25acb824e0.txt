@@ -1,0 +1,2 @@
+D:\TaeCFG\CS_cfgconfig.pdb
+D:\TaeCFG\CS_cfgconfig.exe
