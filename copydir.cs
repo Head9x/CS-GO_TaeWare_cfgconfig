@@ -9,7 +9,7 @@ namespace CS_cfgconfig
 {
     class copydir
     {
-    public static void CopyDirectory(string sourceDir, string destinationDir, bool recursive)
+    public static void CopyDirectory(string sourceDir, string destinationDir, bool recursive, bool overwrite)
     {
         // Get information about the source directory
         var dir = new DirectoryInfo(sourceDir);
@@ -28,7 +28,7 @@ namespace CS_cfgconfig
         foreach (FileInfo file in dir.GetFiles())
         {
             string targetFilePath = Path.Combine(destinationDir, file.Name);
-            file.CopyTo(targetFilePath);
+            file.CopyTo(targetFilePath, overwrite);
         }
 
         // If recursive and copying subdirectories, recursively call this method
@@ -37,7 +37,7 @@ namespace CS_cfgconfig
             foreach (DirectoryInfo subDir in dirs)
             {
                 string newDestinationDir = Path.Combine(destinationDir, subDir.Name);
-                CopyDirectory(subDir.FullName, newDestinationDir, true);
+                CopyDirectory(subDir.FullName, newDestinationDir, true, overwrite);
             }
         }
     }
