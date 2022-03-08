@@ -30,12 +30,16 @@ namespace CS_cfgconfig
             Console.WriteLine("Program is copyrighted by Head9x - head9x.dk");
             copydir copydir = new copydir();
 
+            if (Directory.Exists(@".\cfg")) { 
             copydir.CopyDirectory(@".\cfg", csgodir + "\\cfg", true, overwrite);
+            }
+            if (Directory.Exists(@".\cfg"))
+            {
             copydir.CopyDirectory(@".\resource", csgodir + "\\resource", true, overwrite);
-            Console.WriteLine("!!Remember to add the following line to launch options to activate TaeCFG!!");
-            Console.WriteLine("");
-            Console.WriteLine("+exec taeexec.cfg -language taeware -tickrate 128 -d3d9ex +mat_disable_fancy_blending 1 -high -r_emulate_g -softparticlesdefaultoff -no-browser -console -novid -nojoy -limitvsconst -forcenovsync +mat_queue_mode 2");
-            Console.WriteLine("");
+            }
+            
+            Console.WriteLine("!!Remember to add launch options to CS:GO!!");
+            Console.WriteLine("\nPress any key to close this window . . .");
             Console.ReadKey();
 
             //Snippets were grabbed from other sources. Linked below:
