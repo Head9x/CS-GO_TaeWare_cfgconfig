@@ -8,3 +8,6 @@ Add needed options to CS:GO launch options.
 Done.
 
 It locates CS:GO install directory and copies the files in there. Can easily be used for tournaments. Just place it on the player's usb drive and run from there.
+
+Download latest release in the releases tab or from here:
+https://github.com/Head9x/CS-GO_cfgCopy/releases/tag/csgo_cfgcopy
